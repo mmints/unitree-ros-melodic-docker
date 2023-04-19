@@ -18,7 +18,3 @@ RUN apt update && apt install -q -y --no-install-recommends \
 
 # Set ROS setup source into .bashrc for automatic sourcing when starting the container
 RUN echo "source /root/catkin_ws/devel/setup.bash" >> ~/.bashrc
-
-    # Intel/AMD/ATI GPU acceleration dependencies | MESA Driver
-    # libgl1-mesa-glx \
-    # libgl1-mesa-dri \
