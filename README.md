@@ -3,7 +3,9 @@
 A Docker container for ROS _Melodic_ based Unitree robots.
 
 ## Build
-Get the needed dependencies. Unitrees ROS package repositories are included as Git submodules. To download the submodules either clone using 
+Unitrees ROS package repositories are included as Git submodules.
+All further dependencies are included in the [dockerfile](unitree-ros-melodic.dockerfile).
+To download the submodules either clone using 
 `git clone --recurse-submodules` or after `git clone` use `git submodule init` and 
 `git submodule update`.
 
@@ -13,7 +15,7 @@ Execute the [build](build_unitree_ros_melodic_container.sh) script:
 ```
 
 ## Run
-Execute the [run](build_unitree_ros_melodic_container.sh) script:
+Execute the [run](run_unitree_ros_melodic_container.sh) script:
 ```
 ./build_unitree_ros_melodic_container.sh <optional name>
 ```
@@ -32,7 +34,7 @@ After the first start, or after the execution of `catkin_make` the following com
 source /root/catkin_ws/devel/setup.bash
 ```
 
-## Custom Projects and ROS Packages
+## Custom ROS Packages
 Custom projects should be placed in `catkin_ws/src/` outside the Docker container. The Docker container is only used to build and run software.
 
 If additional ROS packages or other tools or libraries from `apt` are needed, they should be specified in the [dockerfile](unitree-ros-melodic.dockerfile).

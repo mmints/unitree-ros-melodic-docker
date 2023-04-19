@@ -6,6 +6,8 @@ else
     container_name="$1"
 fi
 
+xhost +
+
 docker run \
     -it --rm \
     --env="DISPLAY" \
