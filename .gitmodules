@@ -1,0 +1,9 @@
+[submodule "catkin_ws/src/unitree_ros"]
+	path = catkin_ws/src/unitree_ros
+	url = https://github.com/uneron/unitree_ros.git
+[submodule "catkin_ws/src/unitree_ros_to_real"]
+	path = catkin_ws/src/unitree_ros_to_real
+	url = https://github.com/unitreerobotics/unitree_ros_to_real.git
+[submodule "catkin_ws/src/unitree_legged_sdk"]
+	path = catkin_ws/src/unitree_legged_sdk
+	url = https://github.com/unitreerobotics/unitree_legged_sdk.git
