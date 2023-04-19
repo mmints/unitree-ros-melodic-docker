@@ -1,0 +1,18 @@
+# IDE specific files
+.project
+.cproject
+.vs/
+.vscode/
+.idea/
+.editorconfig
+
+# build directories
+bin/
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Cache for different tasks like source code indexing
+.cache/
+.devcontainer/
+
