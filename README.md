@@ -1,4 +1,4 @@
-# Unitree Go1 Docker
+# Unitree ROS Melodic Docker
 
 A Docker container for ROS _Melodic_ based Unitree robots.
 
