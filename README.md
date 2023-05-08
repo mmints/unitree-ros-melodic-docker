@@ -15,9 +15,14 @@ Execute the [build](build_unitree_ros_melodic_container.sh) script:
 ```
 
 ## Run
+Connect to xhost:
+```
+xhost +local:root
+```
+
 Execute the [run](run_unitree_ros_melodic_container.sh) script:
 ```
-./build_unitree_ros_melodic_container.sh <optional name>
+./run_unitree_ros_melodic_container.sh <optional name>
 ```
 It is possible to set a custom name for the container. If no name is given, the name _"unitree-ros-melodic"_ is used.
 
